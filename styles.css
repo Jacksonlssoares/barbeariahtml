@@ -1,0 +1,77 @@
+
+@import url("styles/produto.css");
+@import url("styles/home.css");
+@import url("styles/contato.css");
+@import url("styles/footer.css");
+
+:root{
+    --fonte-principal: 'Montserrat', sans-serif;
+	--branco: #fefefe;
+    --branco-secundario: #cccccc;
+    --preto: #000000;
+    --verde: #088c19;
+    --mustarda: #c78c19;
+    --vermelho: #FF0000;
+    --cinza:#bbbbbb;
+    --cinza-escuro: #888888;
+    --laranja:#b86e14;
+    
+}
+
+header{
+    background: var(--cinza);
+    padding: 20px 0;
+}
+
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    
+    
+}
+
+nav li{
+    display: flex;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--mustarda);
+    text-decoration: underline;
+}
+
+footer{
+    font-family: var(--fonte-principal);
+    text-align: center;
+    background:url("img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color:var(--branco);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+
+

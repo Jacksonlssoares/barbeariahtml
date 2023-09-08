@@ -1,0 +1,78 @@
+.corpo_contato{
+    font-family: var(--fonte-principal);
+    background: var(--branco);
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form legend{
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width:50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.opcao{
+    padding:8px 0 ;
+    width:10%;
+    font-size: 14px;
+}
+
+.enviar{
+    width: 15%;
+    padding: 10px 0;
+    background: var(--mustarda);
+    color: var(--branco);
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid var(--preto);
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: var(--laranja);
+}
+
+.enviar:active{
+    background: var(--verde);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: var(--cinza);
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid var(--preto);
+    padding: 8px 15px;
+
+}
